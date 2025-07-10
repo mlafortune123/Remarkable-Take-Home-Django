@@ -29,7 +29,7 @@ Take-home project for remarkable by Michael Lafortune. I decided to rename produ
    python3 manage.py runserver
 
 ## Project Structure
-
+```
 remarkable/
 ├─── manage.py
 ├─── config/
@@ -53,7 +53,7 @@ remarkable/
 │         └─── products/
 │              └─── book_list.html
 └─── db.sqlite3
-
+```
 
 ## Models
 

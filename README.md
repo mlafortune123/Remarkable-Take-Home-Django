@@ -8,26 +8,22 @@ Take-home project for remarkable by Michael Lafortune. I decided to rename produ
 # Installation
 
 1. **Clone/download the project**
-   cd remarkable
-   
+   git clone https://github.com/mlafortune123/Remarkable-Take-Home-Django
 
-2. **Create virtual environment**
+2. **Create virtual environment inside or outside the project**
+   cd remarkable
    python3 -m venv venv
    source venv/bin/activate
-   
 
 3. **Install Django**
    pip install django
-   
 
 4. **Apply database migrations**
    python3 manage.py makemigrations products
    python3 manage.py migrate
-   
 
 5. **Create admin user**
    python3 manage.py createsuperuser
-   
 
 6. **Start the server**
    python3 manage.py runserver

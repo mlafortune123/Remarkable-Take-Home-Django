@@ -25,14 +25,17 @@ Take-home project for remarkable by Michael Lafortune. I decided to rename produ
 5. **Create admin user**
    python3 manage.py createsuperuser
 
-6. **Start the server**
+6. **Load sample data**
+   python3 manage.py loaddata sample_data.json
+
+7. **Start the server**
    python3 manage.py runserver
 
 ## Project Structure
 ```
 remarkable/
 ├─── manage.py
-├─── config/
+├─── remarkable/
 │    ├─── __init__.py
 │    ├─── settings.py
 │    ├─── urls.py
@@ -52,7 +55,8 @@ remarkable/
 │    └─── templates/
 │         └─── products/
 │              └─── book_list.html
-└─── db.sqlite3
+├─── sample_data.json        # For loading db data
+└─── db.sqlite3              # You will make this with step 6
 ```
 
 ## Models
